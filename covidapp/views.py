@@ -13,7 +13,7 @@ def home(request):
     querystring={"country":cou}
     headers = {
         'x-rapidapi-host': "covid-193.p.rapidapi.com",
-        'x-rapidapi-key': "e2478e1438mshbce5f2975dfb9bap103857jsnc1039cdc6d80"
+        'x-rapidapi-key': "YOUR_API_KEY"
         }
 
     response = requests.request("GET", url, headers=headers,params=querystring).json()
